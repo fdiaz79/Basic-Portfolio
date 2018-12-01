@@ -6,34 +6,85 @@
         <title>Portfolio Fabian Diaz</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     </head>
     <body>
 
-        <header>
-            <h1>Fabian Diaz</h1>
+        <header class="clearfix">
+            <div id="headContainer">
+                <h1 id="myName">Fabian Diaz</h1>
+                <nav>
+                    <ul id="noBullets">
+                        <li><a href="index.html" class="navLink">About </a> </li>
+                        <li><a href="portfolio.html" class="navLink">Portfolio </a> </li>
+                        <li><a href="contact.html" class="navLink">Contact </a> </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <nav>
-            <ul>
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-
-        <div class="mainContainer">
-            <h1>Portfolio</h1>
-            <hr>
-            <img src="assets/images/placeholder300x250.jpg" alt="project one">
-            <img src="assets/images/placeholder300x250.jpg" alt="project two">
-            <img src="assets/images/placeholder300x250.jpg" alt="project three">
-            <img src="assets/images/placeholder300x250.jpg" alt="project four">
-            <img src="assets/images/placeholder300x250.jpg" alt="project five">
+        <div class="mainContainer clearfix">
+            <div class="subContainer clearfix">
+                <h1 id="innerTitle">Portfolio</h1>
+                <hr>
+                <div class="portContainer">
+                    <a href="#">
+                        <img src="assets/images/headphones.jpg" alt="project one" class="image">
+                        <div class="midText">
+                            <div class="projectName">
+                                Hangman
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="portContainer">
+                    <a href="#">
+                        <img src="assets/images/phone.jpg" alt="project two" class="image">
+                        <div class="midText">
+                            <div class="projectName">
+                                RPG Game
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="portContainer">
+                    <a href="#">
+                        <img src="assets/images/coder.jpg" alt="project three" class="image">
+                        <div class="midText">
+                            <div class="projectName">
+                                Trivia Game
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="portContainer">
+                    <a href="#">
+                        <img src="assets/images/tablet.jpg" alt="project four" class="image">
+                        <div class="midText">
+                            <div class="projectName">
+                                Rutgers Info Widget
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="portContainer">
+                    <a href="#">
+                        <img src="assets/images/optic.jpg" alt="project five" class="image">
+                        <div class="midText">
+                            <div class="projectName">
+                                Rock Paper Scissors
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
         </div>
 
         <footer>
-            Copyright &copy;
+            <div class="footerText">
+                Copyright &copy;
+            </div>
         </footer>
         
     </body>
